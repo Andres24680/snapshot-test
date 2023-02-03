@@ -10,5 +10,6 @@ import renderer from 'react-test-renderer'
 
 test('renders text Batman', () => {
   render(<App />)
+  const nameElement = screen.getByText(/Batman/i)
   expect(nameElement).toBeInTheDocument()
 })

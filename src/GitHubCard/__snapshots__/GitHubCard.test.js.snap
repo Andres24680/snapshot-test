@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders a snapshot 1`] = `
+<div
+  className="card"
+>
+  <div
+    className="card"
+    style={
+      Object {
+        "width": "18rem",
+      }
+    }
+  >
+    <img
+      className="card-img-top"
+      src="https://w7.pngwing.com/pngs/22/790/png-transparent-batman-family-catwoman-robin-comics-batman-heroes-superhero-comic-book-thumbnail.png"
+    />
+    <div
+      className="card-body"
+    >
+      <div
+        className="card-title h5"
+      >
+        Batman
+      </div>
+      <p
+        className="card-text"
+      >
+        I am Gothoms protector
+      </p>
+    </div>
+  </div>
+</div>
+`;
